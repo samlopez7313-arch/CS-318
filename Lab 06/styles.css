@@ -1,0 +1,47 @@
+body {
+    background-image: url(images/959487-anime-Berserk-monochrome-simple-background-creature.jpg);
+    background-repeat: repeat;
+    background-position: top;
+    background-size: cover;
+}
+h1{
+    background-color:white;
+}
+header a {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+text {
+    color: rgb(255, 255, 255);
+}
+main {
+    padding: 1rem;
+    text-align: center;
+}
+.home-content div {
+    display: inline-block;width: 60%;
+}
+.home-content img {
+    width: 38%;
+    vertical-align: top;
+}
+/* Any button over which the user's pointer is hovering */
+button:hover {
+  color: rgb(255, 0, 0);
+}
+.manga {
+    padding: 1rem;
+    display: inline-block;
+    width: 29%;
+    max-width: 100%;
+    margin: .5rem;
+    vertical-align: top;
+}
+.anime {
+    padding: 1rem;
+    display: inline-block;
+    width: 29%;
+    max-width: 46%;
+    margin: .5rem;
+    vertical-align: top;
+}
