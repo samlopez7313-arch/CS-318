@@ -27,8 +27,8 @@ nav>a:hover {
 }
 .animal-background {
     position: fixed;
-    top: 12rem;
-    left: 51%;
+    top: 12rem;/*Negative -12rem*/
+    left: 51%;/*negative -51% */
     width: 200%;
     height: 50rem;
     z-index: -1;
@@ -104,22 +104,27 @@ section>h2 {
     .animal-background {
         height : 100rem;
         top: -25%;
+    }
     section > h2 {
         padding: 23rem 0;
         font-size: 3rem;
         background-position: center;
-    }   background-position: center;
     }
 section span {
     font-size: 4rem;
     top: 26rem;
     left: calc(50% - 22px);
     }
-}
+
 nav {
     position: absolute;
+    /*You need to add
+    top:1rem;
+    left:1rem;
+    When you use position absolute or fixed you need to use top, left, right, or bottom with a value to move the item around the page.*/
 }
 article {
     max-width: 60rem;
     margin: 0 auto;
+}
 }
