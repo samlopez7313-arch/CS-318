@@ -4,40 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tree Photography</title>
-    <!--Missing link for css-->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Tree Photography</h1> 
-        <img src="treephotographylogo.svg" alt="Tree Photography Logo" width="300" height="200"><!--Missing folder in file path. Aldo delete the width and height. We will define those in the CSS.-->
+        <img src="images/treephotographylogo.svg" alt="Tree Photography Logo">
         <nav>
           <a href="#aboutme">About Me</a>
           <a href="#gallery">Gallery</a>
         </nav>
     </header>
     <main> 
-         <section>
+         <section class="about-me">
             <h2>About Me</h2> 
-            <div id="aboutme" class="about-me"><!--Move the class to the section on line 19.-->
+            <div id="aboutme">
                <p>Hi! I'm Danielle. My whole life, I've loved photography. What fascinates me the most, is the ability to capture a moment and freeze it in time. I decided to pursue my passion for photography in college. The knowledge I gained about the technique and art of photography truly propelled my interest to new heights. Photography has greatly impacted and changed our world. I look forward to adding my work to this revolutionary collection.</p> 
                <p>My love behind the lens comes forth in my photography. To me, "Photography is life's elegance preserved in the most beautiful format."</p>
             </div>
         </section>
-        <section>
-            <h2>Gallery</h2> 
-            <div id="gallery" class="gallery"><!--Move id to h2 and move class to section. Then delete the div.-->
-                <!--Missing folder in all file paths. Also delete width and height for all images. We will use CSS to define those values.-->
-                <img src="fall.jpg" alt="Tree in the fall." width="300" height="200">
-                <img src="fog-1.jpg" alt="Tree with fog around it." width="300" height="200">
-                <img src="fog-2.jpg" alt="Tree with more fog around it." width="300" height="200">
-                <img src="forest-1.jpg" alt="Tree in the forest." width="300" height="200">
-                <img src="forest-2.jpg" alt="Tree in another forest." width="300" height="200">
-                <img src="olive-harvest.jpg" alt="Trees during olive harvest." width="300" height="200">
-                <img src="tree-1.jpg" alt="Tree in black and white." width="300" height="200">
-                <img src="tree-in-fog.jpg" alt="Tree in foggy area." width="300" height="200">
-                <img src="tree-rots.jpg" alt="Tree roots, foggy." width="300" height="200">
-                <img src="trees-in-fog.jpg" alt="Many trees in fog." width="300" height="200">
-            </div><!--Delete-->
+        <section class="gallery" > 
+            <h2>Gallery id="gallery"</h2>
+                <img src="images/fall.jpg" alt="Tree in the fall.">
+                <img src="images/fog-1.jpg" alt="Tree with fog around it.">
+                <img src="images/fog-2.jpg" alt="Tree with more fog around it.">
+                <img src="images/forest-1.jpg" alt="Tree in the forest.">
+                <img src="images/forest-2.jpg" alt="Tree in another forest.">
+                <img src="images/olive-harvest.jpg" alt="Trees during olive harvest.">
+                <img src="images/tree-1.jpg" alt="Tree in black and white.">
+                <img src="images/tree-in-fog.jpg" alt="Tree in foggy area.">
+                <img src="images/tree-rots.jpg" alt="Tree roots, foggy.">
+                <img src="images/trees-in-fog.jpg" alt="Many trees in fog.">
         </section>
     </main>
 </body>
