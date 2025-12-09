@@ -92,6 +92,7 @@ header a:hover {
 .rover:hover {
     animation-play-state: paused;
 }
+/*Missing animation properties and keyframes to make the rover slide across the page*/
 section {
     padding: 1rem; 
 }
