@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400&display=swap" rel="stylesheet">
-    <script src="scripts.js"></script>
+    <script src="scripts.js"></script><!--script.js not scripts.js-->
 </head>
 <body>
     <header>
@@ -25,7 +25,7 @@
             <form>
                 <h2>Place Order</h2>
                 <div class="cloner">
-                    <div class="container">
+                    <div class="container"><!--Add </div> here-->
                         <template>
                             <div class="row">
                                 <label>Coffee</label>
@@ -55,19 +55,19 @@
                                 </select>
                                 <label>Quantity</label>
                                 <input type="number" min="1" max="10" value="1">
-                                <a class="delete">Delete</a>
-                                <a onclick="removeRow(event)">Remove</a>
+                                <a class="delete">Delete</a><!--Delete-->
+                                <a onclick="removeRow(event)">Remove</a><!--After the last " add class="delete"-->
                             </div>
                         </template>
                         <div>
                             <a class="add-button">
                                 <span>+</span>Add Coffee
                             </a>
+                            </div><!--Delete this was the one for the container-->
                         </div>
-                    </div>
                 </div>
                 <div class="cloner">
-                    <div class="container">
+                    <div class="container"><!--Add </div> here-->
                         <template>
                             <div class="row">
                                 <label>Waffle</label>
@@ -118,11 +118,10 @@
                                     <option value="banana">Banana</option>
                                     <option value="pecan">Pecans</option>
                                 </select>
-                                <a>content</a>
                                 <label>Quantity</label>
                                 <input type="number" min="1" max="10" value="1">
-                                <a class="delete">Delete</a>
-                                <a onclick="removeRow(event)">Remove</a>
+                                <a class="delete">Delete</a><!--Delete-->
+                                <a onclick="removeRow(event)">Remove</a><!--After the last " add class="delete"-->
                             </div>
                         </template>
                         <div>
@@ -130,14 +129,14 @@
                                 <span>+</span>Add Waffle
                             </a>
                         </div>
-                    </div>
                 </div>
-            </form>
+           </form><!--Move to after the entire dialog-->
             <button type="button" class="button">Order</button>
             <dialog>
                 <button class="close">X</button>
                 <p>Thanks for your order!</p>
-            </dialog>
+            </dialog> 
+        
         </section>
     </main>
     <footer>

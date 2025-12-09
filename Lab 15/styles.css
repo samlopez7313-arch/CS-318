@@ -61,7 +61,7 @@ footer a {
     margin: .25rem;
 }
 section.headline {
-    background-image: url(image/cafe.png);
+    background-image: url(image/cafe.png);/*images not image*/
     background-size: cover;
     background-color: rgb(23,0,65);
     padding: 5rem 2rem;
@@ -120,7 +120,7 @@ form .button {
     overflow: hidden;
 }
 
-.arrow {
+.arrow{/*Selectors should be .arrow .left, .arrow .right */
     position: absolute;
     font-size: 3rem;
     font-family: 'Bebas Neue', sans-serif;
@@ -275,7 +275,7 @@ form {
     position: relative;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1000px) {/*min-width instead of max-width*/
     dialog p {
         margin: 0;
     }
