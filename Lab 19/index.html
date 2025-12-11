@@ -1,24 +1,24 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
     <html lang="en">
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Eiger</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="scripts.js"></script>
+    <script src="scripts.js"></script><!--script.js not scripts.js-->
 </head>
     <body>
     <div class="parallax"> 
         <img src="images/grindelwald.jpg" alt="The Eiger in Grindelwald, Switzerland">
     </div>
-    <div class="overlay"></div>
+    <div class="overlay"></div><!--Add toggle-nav in the class too.-->
         <header>
             <div class="hamburger" onclick="toggleNav()"> 
                 <hr>
                 <hr>
                 <hr>
             </div>
-            <nav class="toggle-nav overlay">
+            <nav class="toggle-nav overlay"><!--Delete overlay. It is making your nav transparent-->
                 <a href="about.html"> About</a>
                 <a href="gallery.html"> Gallery</a>
                 <a href="routes.html"> History</a>
