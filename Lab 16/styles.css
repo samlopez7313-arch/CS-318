@@ -89,10 +89,19 @@ header a:hover {
         transform: rotate(-33deg);
     }
 }
+
+.rotate {
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
 .rover:hover {
     animation-play-state: paused;
 }
-/*Missing animation properties and keyframes to make the rover slide across the page*/
+
 section {
     padding: 1rem; 
 }
