@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400&display=swap" rel="stylesheet">
-    <script src="scripts.js"></script><!--script.js not scripts.js-->
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -25,7 +25,7 @@
             <form>
                 <h2>Place Order</h2>
                 <div class="cloner">
-                    <div class="container"><!--Add </div> here-->
+                    <div class="container"></div> 
                         <template>
                             <div class="row">
                                 <label>Coffee</label>
@@ -55,19 +55,17 @@
                                 </select>
                                 <label>Quantity</label>
                                 <input type="number" min="1" max="10" value="1">
-                                <a class="delete">Delete</a><!--Delete-->
-                                <a onclick="removeRow(event)">Remove</a><!--After the last " add class="delete"-->
+                                <a onclick="removeRow(event)" class="delete">Remove</a>
                             </div>
                         </template>
                         <div>
                             <a class="add-button">
                                 <span>+</span>Add Coffee
                             </a>
-                            </div><!--Delete this was the one for the container-->
                         </div>
                 </div>
                 <div class="cloner">
-                    <div class="container"><!--Add </div> here-->
+                    <div class="container"></div>
                         <template>
                             <div class="row">
                                 <label>Waffle</label>
@@ -120,8 +118,7 @@
                                 </select>
                                 <label>Quantity</label>
                                 <input type="number" min="1" max="10" value="1">
-                                <a class="delete">Delete</a><!--Delete-->
-                                <a onclick="removeRow(event)">Remove</a><!--After the last " add class="delete"-->
+                                <a onclick="removeRow(event)" class="delete">Remove</a>
                             </div>
                         </template>
                         <div>
@@ -130,13 +127,12 @@
                             </a>
                         </div>
                 </div>
-           </form><!--Move to after the entire dialog-->
             <button type="button" class="button">Order</button>
             <dialog>
                 <button class="close">X</button>
                 <p>Thanks for your order!</p>
             </dialog> 
-        
+        </form>
         </section>
     </main>
     <footer>
