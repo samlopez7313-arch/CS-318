@@ -30,6 +30,9 @@ header nav{
     width: 100%;
     left: -100%;
     top: 4.75rem;
+    transition-property: left;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
 
 }
 
@@ -39,10 +42,7 @@ header nav a {
     text-align: center;
     padding: 3rem;
     border: 1px solid #5bc0b4;
-    /*The three transition properties below should be on the header nav, because that is where the left property is.*/
-    transition-property: left;
-    transition-duration: .5s;
-    transition-timing-function: ease-in-out;
+    
 }
 
 header {
@@ -102,11 +102,10 @@ header nav.show {
 .button:hover, input:hover[type="submit"] {
     background-color: #5bc0b4;
 }
-/*Missing
+
 section{
     padding:1rem;
 }
-    */
 .routes, .mountains {
     background-color: #1c2541;
 }
