@@ -32,6 +32,7 @@ main {
     max-width: 100%;
     margin: .5rem;
     vertical-align: top;
+    /*Missing     background-color: rgb(19, 107, 114); */
 }
 .whales {
     padding: 1rem;
@@ -40,6 +41,7 @@ main {
     max-width: 46%;
     margin: .5rem;
     vertical-align: top;
+    /*Missing     background-color: rgb(19, 107, 114); */
 }
 .creatures {
     padding: 1rem;
@@ -48,4 +50,10 @@ main {
     max-width: 100%;
     margin: .5rem;
     vertical-align: top;
+    /*Missing     background-color: rgb(19, 107, 114); */
 }
+/*Missing 
+img{
+    max-width: 100%;
+}
+    */
