@@ -14,7 +14,8 @@ header {
     width: 100%;
     z-index: 1;
 }
-nav {
+/*Should be "nav a" on next line*/
+nav{
     color: #e2512d;
     text-decoration: none;
     padding: 1rem 2rem;
@@ -32,7 +33,7 @@ nav>a:hover {
     width: 200%;
     height: 50rem;
     z-index: -1;
-    background-image: url(animal.jpg);
+    background-image: url(animal.jpg);/*Missing images/ infront of file name*/
     background-size: cover;
 }
 section>h2 {
@@ -45,17 +46,17 @@ section>h2 {
 section {
 background-color: #a33b20;
 }
-.animals {
+.animals {/*.animal not .animals */
     background-color: transparent;
 }
 .sloth>h2 {
-    background-image: url(sloth.jpg);
+    background-image: url(sloth.jpg);/*Missing images/ infront of file name*/
 }
 .elephant>h2 {
-    background-image: url(elephant.jpg);
+    background-image: url(elephant.jpg);/*Missing images/ infront of file name*/
 }
 .owl>h2 {
-    background-image: url(owl.jpg);
+    background-image: url(owl.jpg);/*Missing images/ infront of file name*/
 }
 article {
     padding: 1rem;
@@ -66,7 +67,7 @@ section span {
     font-size: 2rem;
     left: calc(50% - 11px);
 }
-section>h2 span {
+section>h2 span{ /*Delete span. You want relative on the h2*/
 position: relative;
 }
 .accordion {
@@ -91,6 +92,10 @@ span.rotate {
     text-decoration: none;
     position: fixed;
     transform: rotate(90deg);
+    /*missing 
+    right:-5rem;
+    top:40%;
+    */
     z-index: 1;
 }
 section>h2 {
